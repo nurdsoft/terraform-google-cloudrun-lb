@@ -8,8 +8,8 @@ TF_VARS_FILE=examples.tfvars
 
 # Dynamic variables
 TF_WORKDIR?=examples
-# Options: simple
-SVC?= simple
+# Options: complete
+SVC?= complete
 
 define DEFAULT_PLAN_ARGS
 -no-color -input=false \
