@@ -6,7 +6,7 @@
 # for Cloud Run services with private DNS zones for VPC-internal routing.
 # -----------------------------------------------------------------------------
 module "cloudrun_lb" {
-  source = "git::https://github.com/nurdsoft/terraform-google-cloudrun-lb.git?ref=v1.0.0"
+  source = "../.."
 
   project_id                 = var.project_id
   environment                = var.environment
@@ -19,6 +19,4 @@ module "cloudrun_lb" {
 
   lb_ip_name                       = var.lb_ip_name
   api_gateway_service_account_name = var.api_gateway_service_account_name
-  application                      = var.application
-  vendor                           = var.vendor
 }

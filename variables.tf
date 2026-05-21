@@ -65,16 +65,3 @@ variable "api_gateway_service_account_name" {
   default     = "api-gateway-invoker-sa"
 }
 
-# --- Tagging ---
-
-variable "application" {
-  description = "The name of the application."
-  type        = string
-  default     = ""
-}
-
-variable "vendor" {
-  description = "The name of the vendor."
-  type        = string
-  default     = ""
-}

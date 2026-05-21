@@ -13,5 +13,3 @@ path_routing_rules = {
 
 lb_ip_name                       = "lb-static-ip"
 api_gateway_service_account_name = "api-gateway-invoker-sa"
-application                      = "myapp"
-vendor                           = "myvendor"
